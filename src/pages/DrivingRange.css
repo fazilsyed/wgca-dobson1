@@ -1,0 +1,202 @@
+.driving-range-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.driving-range-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.reservations-section,
+.booking-section {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2B4B8C;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reservation-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.reservation-info {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.manage-button {
+  background: #e9ecef;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #495057;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.manage-button:hover {
+  background: #dee2e6;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #495057;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #2B4B8C;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.duration-select {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.check-availability-button {
+  background: #2B4B8C;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.check-availability-button:hover {
+  background: #1a3a7a;
+}
+
+.available-slots-section {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.day-group {
+  margin-bottom: 24px;
+}
+
+.day-group h3 {
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.time-slot {
+  background: #e9ecef;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #495057;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.time-slot:hover {
+  background: #dee2e6;
+}
+
+.day-group:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .time-slots {
+    gap: 8px;
+  }
+
+  .time-slot {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.show-more-days-button {
+  width: 100%;
+  padding: 12px;
+  background: #e9ecef;
+  border: none;
+  border-radius: 4px;
+  color: #495057;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s;
+}
+
+.show-more-days-button:hover {
+  background: #dee2e6;
+}
+  

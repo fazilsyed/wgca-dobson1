@@ -1,0 +1,122 @@
+.lessons-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lessons-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.purchase-section h2 {
+  color: #2B4B8C;
+  margin-bottom: 20px;
+}
+
+.instructor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.instructor-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.instructor-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.instructor-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.specialty {
+  color: #666;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+.price {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.hours-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #495057;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hours-select:focus {
+  outline: none;
+  border-color: #2B4B8C;
+}
+
+.total {
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.buy-now-button,
+.schedule-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.buy-now-button {
+  background: #2B4B8C;
+  color: white;
+}
+
+.buy-now-button:hover {
+  background: #1a3a7a;
+}
+
+.schedule-button {
+  background: white;
+  color: #2B4B8C;
+  border: 1px solid #2B4B8C;
+}
+
+.schedule-button:hover {
+  background: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .instructor-grid {
+    grid-template-columns: 1fr;
+  }
+} 

@@ -1,0 +1,29 @@
+.order-confirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+.confirmation-content {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkmark {
+  font-size: 48px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.confirmation-content h1 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.confirmation-content p {
+  color: #666;
+} 

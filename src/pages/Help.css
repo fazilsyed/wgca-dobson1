@@ -1,0 +1,160 @@
+.help-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.help-page h1 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.help-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.faq-section {
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.faq-dropdown {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  background-color: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+  padding-right: 2.5rem;
+}
+
+.faq-list h2 {
+  color: #2B4B8C;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.faq-item {
+  margin-bottom: 24px;
+}
+
+.faq-item h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.course-info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-info-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.course-info-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2B4B8C;
+}
+
+.info-section h2 {
+  color: #2B4B8C;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+/* Add these styles for emergency section */
+.emergency-intro {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.emergency-list {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.emergency-list li {
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  padding-left: 8px;
+}
+
+.aed-info {
+  color: #333;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Add these styles for contact numbers section */
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.contact-list li:first-child {
+  border-top: 1px solid #dee2e6;
+}
+
+.contact-label {
+  color: #333;
+  font-weight: 500;
+}
+
+.phone-number {
+  color: #2B4B8C;
+  font-weight: 500;
+}
+
+/* Update info-section styles if needed */
+.info-section h2 {
+  color: #2B4B8C;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .help-page {
+    padding: 16px;
+  }
+  
+  .faq-section {
+    padding: 16px;
+  }
+} 
